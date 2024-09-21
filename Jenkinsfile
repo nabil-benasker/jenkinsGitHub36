@@ -3,9 +3,9 @@ pipeline {
   
           agent any
 
-          tools {
-            maven 'maven'
-          }
+         // tools {
+          //  maven 'maven'
+         // }
 
           stages{
             stage('Get from git project'){
